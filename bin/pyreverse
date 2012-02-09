@@ -1,0 +1,4 @@
+#!/home/tom/src/modern-python-example/bin/python
+import sys
+from pylint.pyreverse import main
+main.Run(sys.argv[1:])

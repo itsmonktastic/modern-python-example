@@ -1,0 +1,20 @@
+#!/bin/sh
+set -eu
+
+virtualenv --no-site-packages modern-python-example
+cd modern-python-example
+
+set +u
+. bin/activate
+set -u
+
+pip install yolk pep8 pylint
+pip install pycrypto
+yolk -l
+
+mkdir -p hello-crypto
+touch hello-crypto/foo.py
+
+mkdir -p hello-crypto/test
+touch hello-crypto/test/__init__.py
+touch hello-crypto/test/test_foo.py
