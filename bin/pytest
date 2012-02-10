@@ -1,4 +1,0 @@
-#!/home/tom/src/modern-python-example/bin/python -uWdefault
-
-from logilab.common.pytest import run
-run()
