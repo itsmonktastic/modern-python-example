@@ -13,8 +13,8 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'isitchristmas = example.main:isitchristmas',
-            'isithalloween = example.main:isithalloween',
+            'isitchristmas = example.main:is_it_christmas',
+            'isithalloween = example.main:is_it_halloween',
         ]
     },
 
