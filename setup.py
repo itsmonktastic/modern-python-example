@@ -18,6 +18,9 @@ setup(
         ]
     },
 
+    tests_require=['nose', 'mock'],
+    test_suite='nose.collector',
+
     author='Tim Monks',
     author_email='t.r.monks@gmail.com'
 )
